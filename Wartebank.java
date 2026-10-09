@@ -1,6 +1,6 @@
 public class Wartebank {
     //private int länge;
-    private String[] wartebank;
+    private Held[] wartebank;
     
     public Wartebank(){
 
@@ -10,8 +10,8 @@ public class Wartebank {
         int länge = wartebank.length;
         return länge;
     }
-    public void heldAufnehmen(){
-
+    public void heldAufnehmen(Held h){
+        
     }
 
     public void heldVorlassen(){

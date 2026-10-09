@@ -19,7 +19,7 @@ public class Kampfregel {
             mHP -= hDMG;
             System.out.println("Monster verliert " + hDMG + "HP. Noch: " + mHP + "HP!");
             if(mHP > 0){
-                while(w6.würfeln() == 6){
+                while(w6.würfeln() == 6 && mHP > 0){
                 mHP -= hDMG;
                 System.out.println("Bonustreffer! Monster verliert " + hDMG + "HP. Noch: " + mHP + "HP!");
                 }
