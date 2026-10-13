@@ -11,11 +11,11 @@ public class Wartebank {
         return länge;
     }
     public void heldAufnehmen(Held h){
-        
+        wartebank[wartebank.length + 1] = h;
     }
 
     public void heldVorlassen(){
-        
+         
     }
 
     public boolean istBankLeer(){
